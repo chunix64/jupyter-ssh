@@ -36,6 +36,7 @@ Ubuntu SSH over ngrok for Google Colab, Kaggle, and other Jupyter notebooks.
 
 - Google Colab may block SSH, ngrok, and miniserve sometimes  
 - Obfuscation can help bypass restrictions (not included yet)
+- Kaggle requires account verification to enable internet access.
 
 ---
 
