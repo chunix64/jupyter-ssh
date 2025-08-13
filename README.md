@@ -34,15 +34,28 @@ Ubuntu SSH over ngrok for Google Colab, Kaggle, and other Jupyter notebooks.
 
 ## ⚠️ Notes
 
-- Google Colab may block SSH, ngrok, and miniserve sometimes  
-- Obfuscation can help bypass restrictions (not included yet)
+- Google Colab may block SSH, ngrok, and miniserve sometimes (Check [Google colab policies](https://research.google.com/colaboratory/faq.html#limitations-and-restrictions))
+- Obfuscation can help bypass restrictions (not finished yet)
 - Kaggle requires account verification to enable internet access.
+
+---
+
+## 🔮 Obfuscated version
+- File: jupyter-essessjack-okphuzkatiz.ipynb
+- Method: base64 encode
+- Obfuscated:
+    + ngrok == n{lalaar}ok
+    + ssh == {eggeggs}h
+    + miniserve == mini{kenook}ve
+    + tunnel = tu{rnonoff}
+- Needfix: Still not bypass google colab restrictions
+- Suggestion: Fork or patch ssh, ngrok, miniserve 
 
 ---
 
 ## 🛠 Todos
 
-- Add obfuscated version to bypass restrictions  
+- Bypass google colab restrictions  
 - Support Cloudflared and other tunnels  
 - Support terminal/SSH over web, especially on mobile  
 - Add more detailed documentation  
