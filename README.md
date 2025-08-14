@@ -15,6 +15,22 @@ Ubuntu SSH over ngrok for Google Colab, Kaggle, and other Jupyter notebooks.
 
 ---
 
+## ⚡ Usage
+
+1. Open the notebook in **Google Colab**:  
+
+   - Standard version: https://colab.research.google.com/github/chunix64/jupyter-ssh/blob/main/Jupyter_SSH.ipynb
+   - Obfuscated version: https://colab.research.google.com/github/chunix64/jupyter-ssh/blob/main/jupyter_essessjack_okphuzkatiz.ipynb
+
+2. Run each cell step by step:  
+   - **Step 0**: 🛠️ Prepare the environment  
+   - **Step 1**: 🔐 Setup SSH (set your username, password, or SSH key)  
+   - **Step 2**: 📂 Start Miniserve (file sharing, upload/download)  
+   - **Step 3**: 🚀 Start Ngrok (enter your Ngrok auth token, get tunnel links)  
+   - **Step 4**: ⏳ Keep runtime alive (prevents Colab from stopping)  
+
+---
+
 ## ⚙️ How it works
 
 1. Installs and starts SSH server with your user/password or SSH key  
@@ -48,8 +64,9 @@ Ubuntu SSH over ngrok for Google Colab, Kaggle, and other Jupyter notebooks.
     + ssh == {eggeggs}h
     + miniserve == mini{kenook}ve
     + tunnel = tu{rnonoff}
+- Only bypass source code restrictions in this time, runtime restrictions not
 - Needfix: Still not bypass google colab restrictions
-- Suggestion: Fork or patch ssh, ngrok, miniserve 
+- Suggestion: Fork or patch ssh, ngrok, miniserve. Change port of sshd 
 
 ---
 
@@ -61,6 +78,7 @@ Ubuntu SSH over ngrok for Google Colab, Kaggle, and other Jupyter notebooks.
 - Add more detailed documentation  
 - Open common ports by default
 - Add port manager GUI
+- Create a compact version for Kaggle (since Kaggle does not support the Colab-style UI form)
 
 ---
 
