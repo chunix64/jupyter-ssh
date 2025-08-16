@@ -19,7 +19,7 @@ Ubuntu SSH over ngrok for Google Colab, Kaggle, and other Jupyter notebooks.
 
 1. Open the notebook in **Google Colab**:  
 
-   - Standard version: https://colab.research.google.com/github/chunix64/jupyter-ssh/blob/main/Jupyter_SSH.ipynb
+   - Standard version: https://colab.research.google.com/github/chunix64/jupyter-ssh/blob/main/jupyter_ssh.ipynb
    - Obfuscated version: https://colab.research.google.com/github/chunix64/jupyter-ssh/blob/main/jupyter_essessjack_okphuzkatiz.ipynb
 
 2. Run each cell step by step:  
